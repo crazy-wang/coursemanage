@@ -1,0 +1,21 @@
+@import "./public";
+@import "./element-ui";
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+.red {
+  color: #f33;
+}

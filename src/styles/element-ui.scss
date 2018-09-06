@@ -1,0 +1,27 @@
+
+// el-scrollbar滚动条
+.side-bar {
+  .el-scrollbar__wrap {
+    //overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+// 选修课课表设置
+.xxkkbsz {
+  .el-dialog__wrapper {
+    .edit-course-dialog {
+      .el-dialog__body {
+        padding: 15px 20px;
+      }
+    }
+  }
+}
+
+// 统一处理全局el-table表格表头居中
+.el-table {
+  .el-table__header {
+    th {
+      text-align: center;
+    }
+  }
+}
